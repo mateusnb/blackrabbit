@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+
+
+body {
+	background: black;
+	overflow: hidden;
+	color: white;
+	font-family: Open sans;
+	
+}
+
+.textfx {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+textfx. h1 {
+	position: relative;
+	perspective: 500px;
+	top: 50%;
+	padding: 0 20px;
+	transform: translateY(-50%);
+	font-weight: 300;
+	span {
+		opacity: 0;
+	}
+}
